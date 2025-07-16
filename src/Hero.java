@@ -1,3 +1,5 @@
+import character.Creature;
+
 public class Hero extends Character{
     private String weapon;
 

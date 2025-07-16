@@ -1,3 +1,5 @@
+import character.Creature;
+
 public class Wizard extends Character{
     private int mp;
 

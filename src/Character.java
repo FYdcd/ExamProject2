@@ -1,3 +1,5 @@
+import character.Creature;
+
 public abstract class Character implements Creature {
     private String name;
     private int hp;
