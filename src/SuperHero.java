@@ -1,4 +1,4 @@
-public class SuperHero extends Hero {
+public class SuperHero extends Hero{
     public SuperHero(Hero hero){
         super(hero.getName(), hero.getHp(), hero.getWeapon());
         System.out.println(hero.getName()+"はスーパーヒーローになった！");

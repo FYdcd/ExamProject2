@@ -1,4 +1,4 @@
-public class Matango extends Monster {
+public class Matango extends Monster{
     public Matango(char suffix,int hp){
         super("お化けキノコ",hp,suffix);
     }

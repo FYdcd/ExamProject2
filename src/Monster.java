@@ -1,4 +1,4 @@
-public abstract class Monster implements Creature{
+public abstract class Monster implements Creature {
     private String name;
     private int hp;
     private char suffix;
