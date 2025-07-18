@@ -1,8 +1,10 @@
 package creature;
+import weapon.Weapon;
 
 public abstract class Character implements Creature {
     private String name;
     private int hp;
+    private Weapon weapon;
 
     public Character(String name,int hp){
         if (hp<0){
@@ -10,6 +12,7 @@ public abstract class Character implements Creature {
         }
         this.name = name;
         this.hp = hp;
+        this.weapon = weapon;
     }
 
     @Override
@@ -32,4 +35,9 @@ public abstract class Character implements Creature {
     public void setHp(int hp){
         this.hp=Math.max(0,hp);
     }
+
+    public Weapon getWeapon(){return weapon;}
+    public void setWeapon(Weapon weapon){this.weapon = weapon;}
+
+    public void die(){System.out.println(this.name + "は死んでしまった！");}
 }
