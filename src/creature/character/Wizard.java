@@ -1,6 +1,8 @@
-import character.Creature;
+package creature.character;
 
-public class Wizard extends Character{
+import creature.Creature;
+
+public class Wizard extends Character {
     private int mp;
 
     public Wizard(String name,int hp,int mp){

@@ -1,4 +1,6 @@
-import character.Creature;
+package creature.character;
+
+import creature.Creature;
 
 public class Thief extends Character {
     public Thief(String name,int hp){

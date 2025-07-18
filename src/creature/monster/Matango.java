@@ -1,6 +1,8 @@
-import character.Creature;
+package creature.monster;
 
-public class Matango extends Monster{
+import creature.Creature;
+
+public class Matango extends Monster {
     public Matango(char suffix,int hp){
         super("お化けキノコ",hp,suffix);
     }

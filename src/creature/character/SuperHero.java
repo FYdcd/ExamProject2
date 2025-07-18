@@ -1,6 +1,8 @@
-import character.Creature;
+package creature.character;
 
-public class SuperHero extends Hero{
+import creature.Creature;
+
+public class SuperHero extends Hero {
     public SuperHero(Hero hero){
         super(hero.getName(), hero.getHp(), hero.getWeapon());
         System.out.println(hero.getName()+"はスーパーヒーローになった！");

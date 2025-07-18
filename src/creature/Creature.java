@@ -1,4 +1,4 @@
-package character;
+package creature;
 
 public interface Creature {
     boolean isAlive();

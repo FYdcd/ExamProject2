@@ -1,4 +1,4 @@
-import character.Creature;
+package creature;
 
 public abstract class Monster implements Creature {
     private String name;

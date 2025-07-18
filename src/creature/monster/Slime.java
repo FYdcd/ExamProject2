@@ -1,6 +1,8 @@
-import character.Creature;
+package creature.monster;
 
-public class Slime extends Monster{
+import creature.Creature;
+
+public class Slime extends Monster {
     public Slime(char suffix,int hp){
         super("スライム",hp,suffix);
     }

@@ -1,6 +1,8 @@
-import character.Creature;
+package creature.character;
 
-public class Hero extends Character{
+import creature.Creature;
+
+public class Hero extends Character {
     private String weapon;
 
     public Hero(String name, int hp, String weapon) {
