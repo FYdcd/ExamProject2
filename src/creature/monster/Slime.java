@@ -1,10 +1,11 @@
 package creature.monster;
 
 import creature.Creature;
+import creature.Monster;
 
-public class Slime extends Monster {
+public class Slime extends Monster{
     public Slime(char suffix,int hp){
-        super("スライム",hp,suffix);
+        super("スライム",hp,suffix); // ここで名前を渡しているため、GameMasterでは不要
     }
 
     @Override

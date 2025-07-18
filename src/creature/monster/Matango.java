@@ -1,10 +1,11 @@
 package creature.monster;
 
 import creature.Creature;
+import creature.Monster;
 
 public class Matango extends Monster {
-    public Matango(char suffix,int hp){
-        super("お化けキノコ",hp,suffix);
+    public Matango(char suffix, int hp){
+        super("お化けキノコ",hp,suffix); // ここで名前を渡しているため、GameMasterでは不要
     }
 
     @Override
