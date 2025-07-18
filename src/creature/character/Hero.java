@@ -6,7 +6,6 @@ import weapon.Weapon;
 import weapon.Sword;
 
 public class Hero extends Character {
-    private String weapon;
 
     public Hero(String name, int hp) {
         super(name, hp,new Sword());
