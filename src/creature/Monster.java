@@ -27,4 +27,8 @@ public abstract class Monster implements Creature {
 
     public char getSuffix() {return suffix;}
     public void setSuffix(char suffix){this.suffix = suffix;}
+
+    public void run() {System.out.println(this.name + this.suffix + "は逃げ出した");}
+
+    public void die() {System.out.println(this.name + this.suffix + "を倒した！");}
 }
